@@ -100,7 +100,7 @@
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =Parent.Height - Self.Y
-        Items: =SortByColumns(Search([@Table1], TextSearchBox1.Text, "address_2","address_3","brewery_type"), "address_2", If(SortDescending1, Descending, Ascending))
+        Items: =SortByColumns(Search([@Table1], TextSearchBox1.Text, "name","address_3","name"), "name", If(SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
         ShowScrollbar: =false
@@ -117,7 +117,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.address_2
+            Text: =ThisItem.name
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -131,7 +131,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.address_3
+            Text: =ThisItem.brewery_type
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -145,7 +145,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.brewery_type
+            Text: =ThisItem.city
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
