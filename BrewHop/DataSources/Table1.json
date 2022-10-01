@@ -1,0 +1,33 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-09-26T19:44:14.5210000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "address_2": "address_2",
+      "address_3": "address_3",
+      "brewery_type": "brewery_type",
+      "city": "city",
+      "country": "country",
+      "county_province": "county_province",
+      "latitude": "latitude",
+      "longitude": "longitude",
+      "name": "name",
+      "phone": "phone",
+      "postal_code": "postal_code",
+      "state": "state",
+      "street": "street",
+      "website_url": "website_url"
+    },
+    "DatasetName": "b!kzI5ajRfQkuirbyx6eV8M4SR-zrAObNHu4YtIGdVjMjuj8_ldMVRQb0D_zZDSyiO.017JI6AL3ZCHTICSGOSBCJ34D5H73JS3FE",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table1",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
