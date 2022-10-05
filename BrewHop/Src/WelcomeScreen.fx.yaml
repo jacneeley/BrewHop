@@ -2,11 +2,23 @@ WelcomeScreen As screen:
     Fill: =RGBA(255, 255, 255, 1)
 
     Label1 As label:
+        Align: =Align.Center
         Height: =70
-        Size: =21
+        Size: =36
         Text: ="Welcome to BrewHop"
         Width: =560
         X: =36
-        Y: =136
+        Y: =248
         ZIndex: =1
+
+    Button1 As button:
+        Height: =87
+        OnSelect: =Navigate(BrowseScreen1)
+        Size: =24
+        Text: ="Start"
+        Tooltip: ="Continue to the next screen."
+        Width: =350
+        X: =141
+        Y: =749
+        ZIndex: =2
 
