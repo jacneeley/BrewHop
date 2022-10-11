@@ -61,6 +61,7 @@
       "nativecdsexperimental": true,
       "optimizedforteamsmeeting": false,
       "parallelcodegen": false,
+      "pdffunction": false,
       "projectionmapping": true,
       "reactformulabar": false,
       "reliableconcurrent": true,
