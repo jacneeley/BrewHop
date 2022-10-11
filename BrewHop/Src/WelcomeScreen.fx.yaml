@@ -15,10 +15,10 @@ WelcomeScreen As screen:
         Height: =87
         OnSelect: =Navigate(BrowseScreen1)
         Size: =24
-        Text: ="Start"
+        Text: ="View Database"
         Tooltip: ="Continue to the next screen."
         Width: =350
         X: =141
-        Y: =749
+        Y: =746
         ZIndex: =2
 
