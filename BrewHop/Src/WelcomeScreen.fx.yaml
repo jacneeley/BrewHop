@@ -1,5 +1,7 @@
 WelcomeScreen As screen:
+    BackgroundImage: ='istockphoto-150672528-612x612'
     Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Center
 
     Label1 As label:
         Align: =Align.Center
