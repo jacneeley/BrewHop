@@ -1,12 +1,20 @@
 "DetailScreen1 As screen.'phoneDetailViewLayout_ver3.0'":
+    Fill: =RGBA(166, 175, 181, 1)
+    LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
 
     RectQuickActionBar2 As rectangle:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Fill: =RGBA(92, 74, 168, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
 
     IconBackarrow1 As icon.ChevronLeft:
         AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate(BrowseScreen1, ScreenTransition.None)
@@ -14,13 +22,16 @@
         PaddingLeft: =24
         PaddingRight: =24
         PaddingTop: =24
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Back to list"
         Width: =88
         ZIndex: =2
 
     DetailForm1 As formViewer:
+        BorderColor: =RGBA(92, 74, 168, 1)
         DataSource: =[@Table1]
+        Fill: =RGBA(242, 239, 223, 1)
         Height: =Parent.Height - DetailForm1.Y
         Item: =BrowseGallery1.Selected
         Width: =Parent.Width
@@ -28,6 +39,7 @@
         ZIndex: =6
 
         street_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="street"
             Default: =ThisItem.street
@@ -43,6 +55,8 @@
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -54,6 +68,9 @@
 
             DataCardValue2 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -78,6 +95,7 @@
                 ZIndex: =3
 
         state_DataCard As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="state"
             Default: =ThisItem.state
@@ -93,6 +111,8 @@
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -104,6 +124,9 @@
 
             DataCardValue1 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -116,6 +139,7 @@
                 ZIndex: =2
 
         brewery_type_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="brewery_type"
             Default: =ThisItem.brewery_type
@@ -131,6 +155,8 @@
 
             DataCardKey3 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -142,6 +168,9 @@
 
             DataCardValue3 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -154,6 +183,7 @@
                 ZIndex: =2
 
         city_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="city"
             Default: =ThisItem.city
@@ -169,6 +199,8 @@
 
             DataCardKey4 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -180,6 +212,9 @@
 
             DataCardValue4 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -192,6 +227,7 @@
                 ZIndex: =2
 
         country_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="country"
             Default: =ThisItem.country
@@ -207,6 +243,8 @@
 
             DataCardKey5 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -218,6 +256,9 @@
 
             DataCardValue5 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -230,6 +271,7 @@
                 ZIndex: =2
 
         county_province_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="website_url"
             Default: =ThisItem.website_url
@@ -245,6 +287,8 @@
 
             DataCardKey6 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -256,6 +300,9 @@
 
             DataCardValue6 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -268,6 +315,7 @@
                 ZIndex: =2
 
         latitude_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="latitude"
             Default: =ThisItem.latitude
@@ -283,6 +331,8 @@
 
             DataCardKey7 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -294,6 +344,9 @@
 
             DataCardValue7 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -306,6 +359,7 @@
                 ZIndex: =2
 
         longitude_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="longitude"
             Default: =ThisItem.longitude
@@ -321,6 +375,8 @@
 
             DataCardKey8 As label:
                 AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -332,6 +388,9 @@
 
             DataCardValue8 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -342,4 +401,17 @@
                 X: =30
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
+
+    Label2 As label:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(92, 74, 168, 1)
+        Height: =70
+        Size: =27
+        Text: ="BrewHop Navigation "
+        Width: =560
+        X: =63
+        Y: =9
+        ZIndex: =7
 

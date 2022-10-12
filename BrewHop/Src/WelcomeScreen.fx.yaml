@@ -1,10 +1,13 @@
 WelcomeScreen As screen:
     BackgroundImage: ='istockphoto-150672528-612x612'
-    Fill: =RGBA(255, 255, 255, 1)
-    ImagePosition: =ImagePosition.Center
+    LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
 
     Label1 As label:
         Align: =Align.Center
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(92, 74, 168, 1)
         Height: =70
         Size: =36
         Text: ="Welcome to BrewHop"
@@ -14,13 +17,21 @@ WelcomeScreen As screen:
         ZIndex: =1
 
     Button1 As button:
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(92, 74, 168, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         OnSelect: =Navigate(BrowseScreen1)
         Size: =24
         Text: ="View Brews"
         Tooltip: ="Continue to the next screen."
         Width: =350
-        X: =141
-        Y: =881
+        X: =164
+        Y: =842
         ZIndex: =2
 
