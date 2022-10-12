@@ -19,47 +19,6 @@
         Width: =88
         ZIndex: =2
 
-    IconEdit1 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(DataSourceInfo([@Table1], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Edit this item"
-        Width: =88
-        X: =Parent.Width - Self.Width
-        ZIndex: =3
-
-    IconDelete1 As icon.Trash:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@Table1], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Trash
-        OnSelect: =Remove([@Table1], BrowseGallery1.Selected); If (IsEmpty(Errors([@Table1], BrowseGallery1.Selected)), Back())
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Delete this item"
-        Width: =88
-        X: =Parent.Width - IconEdit1.Width - Self.Width
-        ZIndex: =4
-
-    LblAppName2 As label:
-        Height: =88
-        Size: =27
-        Text: =
-        Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
-        Wrap: =false
-        X: =80
-        ZIndex: =5
-
     DetailForm1 As formViewer:
         DataSource: =[@Table1]
         Height: =Parent.Height - DetailForm1.Y
@@ -67,6 +26,97 @@
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
         ZIndex: =6
+
+        street_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="street"
+            Default: =ThisItem.street
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"street")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =550
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey2 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue2 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                ZIndex: =2
+
+            "Map2 As 'Map (preview)'.pcfdataset":
+                AddressDataSource: ="Default"
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Clustering: |
+                    =false
+                CurrentLocation: =false
+                DefaultLocation: =true
+                DisplayMode: =DisplayMode.Edit
+                Height: =411
+                InfoCards: ='''Microsoft.Map.InfoCards'''.OnHover
+                Items: =Table1
+                ItemsAddresses: =""
+                ItemsLatitudes: =""
+                ItemsLongitudes: =""
+                OnChange: =
+                PinColor: =RGBA(184, 0, 0, 1)
+                Width: =627
+                X: =0
+                Y: =104
+                ZIndex: =3
+
+                street2 As pcfDataField.textualColumn:
+                    FieldDisplayName: ="street"
+                    FieldName: ="street"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =1
+                    ZIndex: =4
+
+                latitude1 As pcfDataField.textualColumn:
+                    FieldDisplayName: ="latitude"
+                    FieldName: ="latitude"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =2
+                    ZIndex: =5
+
+                longitude1 As pcfDataField.textualColumn:
+                    FieldDisplayName: ="longitude"
+                    FieldName: ="longitude"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =3
+                    ZIndex: =6
+
+                city1 As pcfDataField.textualColumn:
+                    FieldDisplayName: ="city"
+                    FieldName: ="city"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =4
+                    ZIndex: =7
 
         state_DataCard As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
@@ -79,7 +129,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =0
+            Y: =1
             ZIndex: =1
 
             DataCardKey1 As label:
@@ -117,7 +167,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -155,7 +205,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =1
 
             DataCardKey4 As label:
@@ -193,7 +243,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =3
+            Y: =4
             ZIndex: =1
 
             DataCardKey5 As label:
@@ -231,7 +281,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =4
+            Y: =5
             ZIndex: =1
 
             DataCardKey6 As label:
@@ -269,7 +319,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =5
+            Y: =6
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -307,7 +357,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =6
+            Y: =7
             ZIndex: =1
 
             DataCardKey8 As label:
