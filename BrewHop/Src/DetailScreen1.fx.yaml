@@ -65,58 +65,17 @@
                 Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
 
-            "Map2 As 'Map (preview)'.pcfdataset":
-                AddressDataSource: ="Default"
+            "Map3 As 'Map (preview)'.pcfdataset":
+                AddressDataSource: =ThisItem.street
                 BorderColor: =RGBA(0, 18, 107, 1)
-                Clustering: |
-                    =false
                 CurrentLocation: =false
-                DefaultLocation: =true
                 DisplayMode: =DisplayMode.Edit
-                Height: =411
-                InfoCards: ='''Microsoft.Map.InfoCards'''.OnHover
-                Items: =Table1
-                ItemsAddresses: =""
-                ItemsLatitudes: =""
-                ItemsLongitudes: =""
-                OnChange: =
-                PinColor: =RGBA(184, 0, 0, 1)
-                Width: =627
+                Height: =400
+                PinColor: =RGBA(29, 114, 169, 1)
+                Width: =610
                 X: =0
-                Y: =104
+                Y: =150
                 ZIndex: =3
-
-                street2 As pcfDataField.textualColumn:
-                    FieldDisplayName: ="street"
-                    FieldName: ="street"
-                    FieldType: ="s"
-                    FieldVariantName: ="textualColumn"
-                    Order: =1
-                    ZIndex: =4
-
-                latitude1 As pcfDataField.textualColumn:
-                    FieldDisplayName: ="latitude"
-                    FieldName: ="latitude"
-                    FieldType: ="s"
-                    FieldVariantName: ="textualColumn"
-                    Order: =2
-                    ZIndex: =5
-
-                longitude1 As pcfDataField.textualColumn:
-                    FieldDisplayName: ="longitude"
-                    FieldName: ="longitude"
-                    FieldType: ="s"
-                    FieldVariantName: ="textualColumn"
-                    Order: =3
-                    ZIndex: =6
-
-                city1 As pcfDataField.textualColumn:
-                    FieldDisplayName: ="city"
-                    FieldName: ="city"
-                    FieldType: ="s"
-                    FieldVariantName: ="textualColumn"
-                    Order: =4
-                    ZIndex: =7
 
         state_DataCard As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
