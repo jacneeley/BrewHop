@@ -1,4 +1,4 @@
-"EditScreen1 As screen.'phoneDetailEditLayout_ver3.0'":
+"'potentialRegisterationScreen?' As screen.'phoneDetailEditLayout_ver3.0'":
     Fill: =RGBA(242, 239, 223, 1)
     LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
 

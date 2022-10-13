@@ -16,7 +16,7 @@
         Height: =88
         Size: =27
         Text: ="BrewHop Browser"
-        Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
+        Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconRefresh1.Width
         Wrap: =false
         X: =20
         ZIndex: =2
@@ -38,7 +38,7 @@
         TabIndex: =0
         Tooltip: ="Refresh list"
         Width: =88
-        X: =Parent.Width - IconNewItem1.Width - IconSortUpDown1.Width - Self.Width
+        X: =Parent.Width -IconSortUpDown1.Width - Self.Width
         ZIndex: =3
 
     IconSortUpDown1 As icon.ArrowsUpDown:
@@ -59,29 +59,8 @@
         TabIndex: =0
         Tooltip: =If(SortDescending1, "Sort list in reverse alphabetical order", "Sort list in alphabetical order")
         Width: =88
-        X: =Parent.Width - IconNewItem1.Width - Self.Width
-        ZIndex: =4
-
-    IconNewItem1 As icon.Add:
-        AccessibleLabel: =Self.Tooltip
-        BorderColor: =RGBA(92, 74, 168, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        DisplayMode: =If(DataSourceInfo([@Table1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Add
-        OnSelect: =NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        PressedFill: =RGBA(255, 255, 255, 0.3)
-        TabIndex: =0
-        Tooltip: ="Create new item"
-        Width: =88
         X: =Parent.Width - Self.Width
-        ZIndex: =5
+        ZIndex: =4
 
     TextSearchBox1 As text:
         Align: =Left

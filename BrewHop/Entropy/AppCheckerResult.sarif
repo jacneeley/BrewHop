@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.address_2_DataCard2.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.address_2_DataCard2.DataCardValue9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.address_2_DataCard2.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.address_2_DataCard2.DataCardValue9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.address_2_DataCard2.DataCardValue9"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.address_2_DataCard2.DataCardValue9"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.address_3_DataCard2.DataCardValue10.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.address_3_DataCard2.DataCardValue10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.address_3_DataCard2.DataCardValue10.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.address_3_DataCard2.DataCardValue10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.address_3_DataCard2.DataCardValue10"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.address_3_DataCard2.DataCardValue10"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.brewery_type_DataCard2.DataCardValue11.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.brewery_type_DataCard2.DataCardValue11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.brewery_type_DataCard2.DataCardValue11.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.brewery_type_DataCard2.DataCardValue11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.brewery_type_DataCard2.DataCardValue11"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.brewery_type_DataCard2.DataCardValue11"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.city_DataCard2.DataCardValue12.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.city_DataCard2.DataCardValue12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.city_DataCard2.DataCardValue12.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.city_DataCard2.DataCardValue12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.city_DataCard2.DataCardValue12"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.city_DataCard2.DataCardValue12"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.country_DataCard2.DataCardValue13.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.country_DataCard2.DataCardValue13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.country_DataCard2.DataCardValue13.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.country_DataCard2.DataCardValue13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.country_DataCard2.DataCardValue13"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.country_DataCard2.DataCardValue13"
               }
             }
           ],
@@ -254,19 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.county_province_DataCard2.DataCardValue14.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.county_province_DataCard2.DataCardValue14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.county_province_DataCard2.DataCardValue14.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.county_province_DataCard2.DataCardValue14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.county_province_DataCard2.DataCardValue14"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.county_province_DataCard2.DataCardValue14"
               }
             }
           ],
@@ -284,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.latitude_DataCard2.DataCardValue15.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.latitude_DataCard2.DataCardValue15.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.latitude_DataCard2.DataCardValue15.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.latitude_DataCard2.DataCardValue15.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.latitude_DataCard2.DataCardValue15"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.latitude_DataCard2.DataCardValue15"
               }
             }
           ],
@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.longitude_DataCard2.DataCardValue16.AccessibleLabel"
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.longitude_DataCard2.DataCardValue16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreen1.EditForm1.longitude_DataCard2.DataCardValue16.AccessibleLabel",
+                  "fullyQualifiedName": "'potentialRegisterationScreen?'.EditForm1.longitude_DataCard2.DataCardValue16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "EditScreen1",
-                "type": "EditScreen1.EditForm1.longitude_DataCard2.DataCardValue16"
+                "module": "potentialRegisterationScreen?",
+                "type": "'potentialRegisterationScreen?'.EditForm1.longitude_DataCard2.DataCardValue16"
               }
             }
           ],
