@@ -324,6 +324,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
+            Visible: =false
             Width: =640
             X: =0
             Y: =6
@@ -368,6 +369,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
+            Visible: =false
             Width: =640
             X: =0
             Y: =7
