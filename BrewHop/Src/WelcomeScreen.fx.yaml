@@ -1,5 +1,6 @@
 WelcomeScreen As screen:
     BackgroundImage: ='istockphoto-150672528-612x612'
+    Fill: =RGBA(242, 239, 223, 1)
     LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
 
     Label1 As label:
