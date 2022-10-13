@@ -32,7 +32,7 @@ WelcomeScreen As screen:
         Text: ="View Brews"
         Tooltip: ="Continue to the next screen."
         Width: =350
-        X: =164
-        Y: =842
+        X: =141
+        Y: =840
         ZIndex: =2
 
