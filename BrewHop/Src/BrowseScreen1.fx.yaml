@@ -18,7 +18,7 @@
         Text: ="BrewHop Browser"
         Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconRefresh1.Width
         Wrap: =false
-        X: =20
+        X: =88
         ZIndex: =2
 
     IconRefresh1 As icon.Reload:
@@ -213,4 +213,17 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    Icon1 As icon.BackArrow:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(92, 74, 168, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(WelcomeScreen)
+        Width: =44
+        X: =12
+        Y: =12
+        ZIndex: =10
 

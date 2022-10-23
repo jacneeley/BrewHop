@@ -104,48 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1"
+                  "fullyQualifiedName": "BrowseScreen1.Icon1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen1",
-                "type": "Screen1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.EditForm1.LastName_DataCard1.DataCardValue12.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.EditForm1.LastName_DataCard1.DataCardValue12.AccessibleLabel",
+                  "fullyQualifiedName": "BrowseScreen1.Icon1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.EditForm1.LastName_DataCard1.DataCardValue12"
+                "module": "BrowseScreen1",
+                "type": "BrowseScreen1.Icon1"
               }
             }
           ],
@@ -163,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.EditForm1.FirstName_DataCard1.DataCardValue11.AccessibleLabel"
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.LastName_DataCard1.DataCardValue12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.EditForm1.FirstName_DataCard1.DataCardValue11.AccessibleLabel",
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.LastName_DataCard1.DataCardValue12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.EditForm1.FirstName_DataCard1.DataCardValue11"
+                "module": "RegistrationPage",
+                "type": "RegistrationPage.EditForm1.LastName_DataCard1.DataCardValue12"
               }
             }
           ],
@@ -193,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.EditForm1.Password_DataCard1.DataCardValue10.AccessibleLabel"
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.FirstName_DataCard1.DataCardValue11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.EditForm1.Password_DataCard1.DataCardValue10.AccessibleLabel",
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.FirstName_DataCard1.DataCardValue11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.EditForm1.Password_DataCard1.DataCardValue10"
+                "module": "RegistrationPage",
+                "type": "RegistrationPage.EditForm1.FirstName_DataCard1.DataCardValue11"
               }
             }
           ],
@@ -223,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.EditForm1.Username_DataCard1.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.Password_DataCard1.DataCardValue10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.EditForm1.Username_DataCard1.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.Password_DataCard1.DataCardValue10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.EditForm1.Username_DataCard1.DataCardValue9"
+                "module": "RegistrationPage",
+                "type": "RegistrationPage.EditForm1.Password_DataCard1.DataCardValue10"
               }
             }
           ],
@@ -247,6 +218,66 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.Username_DataCard1.DataCardValue9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegistrationPage.EditForm1.Username_DataCard1.DataCardValue9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegistrationPage",
+                "type": "RegistrationPage.EditForm1.Username_DataCard1.DataCardValue9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BrowseScreen1.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BrowseScreen1.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BrowseScreen1",
+                "type": "BrowseScreen1.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -276,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -316,23 +347,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
-              "id": "acc-ReadableScreenNameNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Revise screen name"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Give the screen  a title that describes what's on the screen or what it's used for."
-                ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
               }
             },
             {

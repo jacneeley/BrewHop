@@ -12,9 +12,9 @@ WelcomeScreen As screen:
         Height: =70
         Size: =36
         Text: ="Welcome to BrewHop"
-        Width: =560
-        X: =36
-        Y: =248
+        Width: =586
+        X: =30
+        Y: =82
         ZIndex: =1
 
     Button1 As button:
@@ -32,7 +32,26 @@ WelcomeScreen As screen:
         Text: ="View Brews"
         Tooltip: ="Continue to the next screen."
         Width: =350
-        X: =164
-        Y: =842
+        X: =148
+        Y: =832
         ZIndex: =2
+
+    Button1_1 As button:
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(92, 74, 168, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
+        OnSelect: =Navigate(RegistrationPage)
+        Size: =24
+        Text: ="Register"
+        Tooltip: ="Continue to the next screen."
+        Width: =350
+        X: =148
+        Y: =956
+        ZIndex: =3
 
