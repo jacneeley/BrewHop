@@ -87,12 +87,12 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/24/2022 17:09:44",
+  "HeaderLastSavedDateTimeUTC": "10/24/2022 20:25:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "09289821-8093-4788-a097-99bd5ee2018c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/b411f76f830e45738673734ebc2fe365\"",
+    "7c08fa9f-dfdc-482a-a904-a47e1d395978": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/71aa236c90ee41a6a1ae0a8edc8fc4d3\"",
     "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/1c7363780610471fb1a9d6f53aec695d\"",
-    "e7e24a18-5100-4047-ba12-f498f322544d": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/5aed2e5b8a2044fa936a3d375988a523\"",
     "fe193b4e-3a8d-474b-998e-33a196f695cf": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/1ccea767c92a4ada8e4a22c759cfa735\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -101,8 +101,8 @@
     "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "ccaa79bb-8c56-446e-95fe-f172714ed649.jpg"
   },
   "LocalResourceRootPaths": {
-    "istockphoto-150672528-612x612": "https://docserverpwaprodwus.blob.core.windows.net/051251d5-3e98-41e2-b179-52191af6094b-1/resource/Assets0Images0ae85ff55-8b22-499d-bc3b-9b0f2601c6ef.jpg?sv=2017-04-17&sr=b&sig=usCqLbFx0WjQ6B90h7PDYp5talx41MleDUurCgBOtI0%3D&spr=https&se=2022-10-25T17%3A24%3A15Z&sp=r",
-    "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodwus.blob.core.windows.net/051251d5-3e98-41e2-b179-52191af6094b-1/resource/Assets0Images0ccaa79bb-8c56-446e-95fe-f172714ed649.jpg?sv=2017-04-17&sr=b&sig=ySY7LORTOajsMgc66PuB4bnYqELeVDtFQWDDIs%2BZIE8%3D&spr=https&se=2022-10-25T17%3A24%3A15Z&sp=r"
+    "istockphoto-150672528-612x612": "https://docserverpwaprodwus.blob.core.windows.net/fb1ac8a8-e04b-4bec-beb5-49910e3df3e6-1/resource/Assets0Images0ae85ff55-8b22-499d-bc3b-9b0f2601c6ef.jpg?sv=2017-04-17&sr=b&sig=z1JZ4Y6RD7aJSrEWHPGdRwxO0BR52G%2B%2Bht3bVCu3xUw%3D&spr=https&se=2022-10-25T20%3A37%3A50Z&sp=r",
+    "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodwus.blob.core.windows.net/fb1ac8a8-e04b-4bec-beb5-49910e3df3e6-1/resource/Assets0Images0ccaa79bb-8c56-446e-95fe-f172714ed649.jpg?sv=2017-04-17&sr=b&sig=EKYSBoCXikTdTCEyUTDrtUtupH2VATZkQxQ%2BRpzxFao%3D&spr=https&se=2022-10-25T20%3A37%3A50Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -221,7 +221,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.7884221,
+    "AnalysisLoadTime": 0.7990483,
     "ControlCount": {
       "button": 6,
       "form": 1,
@@ -236,7 +236,7 @@
       "text": 5,
       "typedDataCard": 12
     },
-    "DeserializationLoadTime": 2.0114296,
+    "DeserializationLoadTime": 4.3145663,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
