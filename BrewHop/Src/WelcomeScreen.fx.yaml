@@ -64,6 +64,7 @@ WelcomeScreen As screen:
         Height: =85
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
+        OnSelect: =Navigate(ExitScreen)
         Size: =24
         Text: ="Exit"
         Width: =350
