@@ -12,6 +12,7 @@
     "Button1_2": 79,
     "Button2": 81,
     "Button3": 82,
+    "Button4": 83,
     "city_DataCard1": 18,
     "country_DataCard1": 21,
     "county_province_DataCard1": 24,
@@ -86,11 +87,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/24/2022 17:03:34",
+  "HeaderLastSavedDateTimeUTC": "10/24/2022 17:08:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "09289821-8093-4788-a097-99bd5ee2018c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/b411f76f830e45738673734ebc2fe365\"",
-    "a9ba7016-ecfa-4e74-9484-3d104640f143": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/5aed2e5b8a2044fa936a3d375988a523\"",
+    "6ae427fc-97c7-4bfc-8fe1-0ee09f40c68e": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/5aed2e5b8a2044fa936a3d375988a523\"",
     "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/1c7363780610471fb1a9d6f53aec695d\"",
     "fe193b4e-3a8d-474b-998e-33a196f695cf": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/1ccea767c92a4ada8e4a22c759cfa735\""
   },
@@ -100,8 +101,8 @@
     "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "ccaa79bb-8c56-446e-95fe-f172714ed649.jpg"
   },
   "LocalResourceRootPaths": {
-    "istockphoto-150672528-612x612": "https://docserverpwaprodwus.blob.core.windows.net/059774bd-c55a-4ad5-9dd3-1833f562550c-1/resource/Assets0Images0ae85ff55-8b22-499d-bc3b-9b0f2601c6ef.jpg?sv=2017-04-17&sr=b&sig=2cFWyzogkLbDTwp2EmV3zDXkA89fc3ScRvVGBYliE%2Bw%3D&spr=https&se=2022-10-25T17%3A08%3A35Z&sp=r",
-    "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodwus.blob.core.windows.net/059774bd-c55a-4ad5-9dd3-1833f562550c-1/resource/Assets0Images0ccaa79bb-8c56-446e-95fe-f172714ed649.jpg?sv=2017-04-17&sr=b&sig=hXT5prQ2Ue%2FpkeCe0RExKzhYGfl1s5zt0y45zmVWBUQ%3D&spr=https&se=2022-10-25T17%3A08%3A35Z&sp=r"
+    "istockphoto-150672528-612x612": "https://docserverpwaprodwus.blob.core.windows.net/f702c2af-451a-43a9-ae54-af07942f920d-1/resource/Assets0Images0ae85ff55-8b22-499d-bc3b-9b0f2601c6ef.jpg?sv=2017-04-17&sr=b&sig=U8blQqJ2pwP3giV%2FwrzpPKMwpmJXlkK7pIGKLRn%2BlL0%3D&spr=https&se=2022-10-25T17%3A19%3A48Z&sp=r",
+    "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodwus.blob.core.windows.net/f702c2af-451a-43a9-ae54-af07942f920d-1/resource/Assets0Images0ccaa79bb-8c56-446e-95fe-f172714ed649.jpg?sv=2017-04-17&sr=b&sig=5lZ92kCxoWQy9AwxpcZ6gL9G16%2B%2BQ%2B9oS6FZgCQOd5E%3D&spr=https&se=2022-10-25T17%3A19%3A48Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -139,6 +140,7 @@
     "Button1_2": 72,
     "Button2": 73,
     "Button3": 74,
+    "Button4": 0,
     "city_DataCard1": 32,
     "country_DataCard1": 35,
     "county_province_DataCard1": 38,
@@ -219,9 +221,9 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.5644583,
+    "AnalysisLoadTime": 0.7075718,
     "ControlCount": {
-      "button": 3,
+      "button": 5,
       "form": 1,
       "formViewer": 1,
       "gallery": 1,
@@ -230,11 +232,11 @@
       "label": 35,
       "Map": 1,
       "rectangle": 5,
-      "screen": 4,
+      "screen": 5,
       "text": 5,
       "typedDataCard": 12
     },
-    "DeserializationLoadTime": 3.3826304,
+    "DeserializationLoadTime": 2.858091,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
