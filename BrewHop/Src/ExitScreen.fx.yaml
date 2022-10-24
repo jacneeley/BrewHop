@@ -1,0 +1,38 @@
+ExitScreen As screen:
+    Fill: =RGBA(242, 239, 223, 1)
+    LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
+
+    Button2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(30, 14, 91, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =152
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
+        OnSelect: =Exit(true)
+        Size: =24
+        Text: ="Exit Application with Login"
+        Width: =280
+        X: =176
+        Y: =432
+        ZIndex: =1
+
+    Button3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(30, 14, 91, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =187
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
+        OnSelect: =Exit(false)
+        Size: =24
+        Text: ="Exit Application without login"
+        Width: =280
+        X: =176
+        Y: =650
+        ZIndex: =2
+

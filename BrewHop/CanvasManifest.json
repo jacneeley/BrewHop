@@ -112,6 +112,7 @@
     "WelcomeScreen",
     "BrowseScreen1",
     "DetailScreen1",
-    "RegistrationPage"
+    "RegistrationPage",
+    "ExitScreen"
   ]
 }
