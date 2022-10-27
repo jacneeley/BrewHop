@@ -15,7 +15,7 @@ ExitScreen As screen:
         HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         OnSelect: =Exit(true)
         Size: =24
-        Text: ="Exit Application with Login"
+        Text: ="Exit Application with Logout"
         Width: =280
         X: =176
         Y: =432
@@ -32,7 +32,7 @@ ExitScreen As screen:
         HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         OnSelect: =Exit(false)
         Size: =24
-        Text: ="Exit Application without login"
+        Text: ="Exit Application without logout"
         Width: =280
         X: =176
         Y: =650
