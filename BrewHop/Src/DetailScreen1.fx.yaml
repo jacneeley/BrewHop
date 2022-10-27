@@ -424,8 +424,9 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =97
         Icon: =Icon.Globe
+        OnSelect: =Navigate(BrowseScreen1)
         Width: =124
         X: =486
-        Y: =100
+        Y: =120
         ZIndex: =8
 
