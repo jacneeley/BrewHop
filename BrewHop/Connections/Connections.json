@@ -11,9 +11,6 @@
     "datasets": {
       "me,b%2521kzI5ajRfQkuirbyx6eV8M4SR-zrAObNHu4YtIGdVjMjuj8_ldMVRQb0D_zZDSyiO,017JI6AL42XBQHBTJFI5A357ADRL5B4W5E": {
         "dataSources": {
-          "Table1_2": {
-            "tableName": "{8507B53C-D572-4019-996A-331E17117554}"
-          },
           "Table1_3": {
             "tableName": "{8507B53C-D572-4019-996A-331E17117554}"
           }
@@ -21,14 +18,13 @@
       }
     },
     "dataSources": [
-      "Table1_2",
       "Table1_3"
     ],
     "dependencies": {},
     "dependents": [],
     "id": "09289821-8093-4788-a097-99bd5ee2018c"
   },
-  "557cf84d-b362-46b8-9ab9-2e25ec6398e9": {
+  "62ba68b7-6143-4b13-b541-d3aaae38cfb9": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -43,7 +39,7 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "557cf84d-b362-46b8-9ab9-2e25ec6398e9"
+    "id": "62ba68b7-6143-4b13-b541-d3aaae38cfb9"
   },
   "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2": {
     "connectionParameters": {
