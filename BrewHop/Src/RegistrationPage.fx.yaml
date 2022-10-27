@@ -36,7 +36,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
         Icon: =Icon.Check
-        OnSelect: =SubmitForm(EditForm1)
+        OnSelect: =SubmitForm(EditForm1) + Navigate(BrowseScreen1)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -61,7 +61,7 @@
 
     EditForm1 As form:
         BorderColor: =RGBA(92, 74, 168, 1)
-        DataSource: =Table1_2
+        DataSource: =Table1_3
         DefaultMode: =FormMode.New
         Height: =Parent.Height - EditForm1.Y
         Width: =Parent.Width
