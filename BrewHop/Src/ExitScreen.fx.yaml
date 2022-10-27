@@ -1,5 +1,7 @@
 ExitScreen As screen:
+    BackgroundImage: =
     Fill: =RGBA(242, 239, 223, 1)
+    ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(30, 14, 91, 1)
 
     Button2 As button:

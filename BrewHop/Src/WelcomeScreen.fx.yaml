@@ -14,7 +14,7 @@ WelcomeScreen As screen:
         Text: ="Welcome to BrewHop"
         Width: =586
         X: =30
-        Y: =82
+        Y: =175
         ZIndex: =1
 
     Button1 As button:
@@ -71,4 +71,37 @@ WelcomeScreen As screen:
         X: =148
         Y: =1021
         ZIndex: =4
+
+    Icon7 As icon.Leave:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Leave
+        OnSelect: =Navigate(ExitScreen)
+        X: =148
+        Y: =1031
+        ZIndex: =7
+
+    Icon8 As icon.AddUser:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.AddUser
+        OnSelect: =Navigate(RegistrationPage)
+        X: =148
+        Y: =928
+        ZIndex: =8
+
+    Icon10 As icon.View:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.View
+        OnSelect: =Navigate(BrowseScreen1)
+        X: =148
+        Y: =813
+        ZIndex: =9
 
