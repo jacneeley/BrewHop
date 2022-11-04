@@ -304,12 +304,12 @@
                 Color: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
-                OnSelect: =Launch(Parent.Default)
+                OnSelect: =Launch(ThisItem.website_url)
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
-                Text: =(Parent.Default)
+                Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey6.Y + DataCardKey6.Height + 5
