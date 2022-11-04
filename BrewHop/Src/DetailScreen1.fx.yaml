@@ -87,9 +87,9 @@
                 BorderColor: =RGBA(0, 18, 107, 1)
                 CurrentLocation: =false
                 DisplayMode: =DisplayMode.Edit
-                Height: =400
+                Height: =532
                 PinColor: =RGBA(29, 114, 169, 1)
-                Width: =610
+                Width: =498
                 X: =0
                 Y: =150
                 ZIndex: =3
@@ -278,7 +278,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"website_url")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =
+            Height: =4
             Required: =false
             Width: =640
             X: =0
@@ -299,86 +299,20 @@
                 ZIndex: =1
 
             DataCardValue6 As label:
-                AutoHeight: =true
                 BorderColor: =RGBA(92, 74, 168, 1)
                 Color: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
-                OnSelect: =
+                Height: =41
+                OnSelect: =Launch("Parent.Default")
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
+                Width: =580
                 X: =30
                 Y: =DataCardKey6.Y + DataCardKey6.Height + 5
-                ZIndex: =2
-
-            Gallery5 As gallery.galleryHorizontal:
-                BorderColor: =RGBA(92, 74, 168, 1)
-                Height: =104
-                Items: =Table1
-                TemplateSize: =630
-                Width: =610
-                ZIndex: =3
-
-                Label13 As label:
-                    BorderColor: =RGBA(92, 74, 168, 1)
-                    Color: =RGBA(0, 0, 0, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Height: =70
-                    OnSelect: =Launch(ThisItem.website_url)
-                    Size: =21
-                    Text: =ThisItem.website_url
-                    Width: =560
-                    X: =12
-                    Y: =18
-                    ZIndex: =1
-
-        latitude_DataCard1 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(92, 74, 168, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="latitude"
-            Default: =ThisItem.latitude
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"latitude")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Visible: =false
-            Width: =640
-            X: =0
-            Y: =6
-            ZIndex: =1
-
-            DataCardKey7 As label:
-                AutoHeight: =true
-                Color: =RGBA(92, 74, 168, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue7 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(92, 74, 168, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
                 ZIndex: =2
 
         longitude_DataCard1 As typedDataCard.textualViewCard:
@@ -394,7 +328,7 @@
             Visible: =false
             Width: =640
             X: =0
-            Y: =7
+            Y: =6
             ZIndex: =1
 
             DataCardKey8 As label:
@@ -424,6 +358,51 @@
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                ZIndex: =2
+
+        latitude_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(92, 74, 168, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="latitude"
+            Default: =ThisItem.latitude
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"latitude")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Visible: =false
+            Width: =640
+            X: =0
+            Y: =7
+            ZIndex: =1
+
+            DataCardKey7 As label:
+                AutoHeight: =true
+                Color: =RGBA(92, 74, 168, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue7 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
                 ZIndex: =2
 
     Label2 As label:

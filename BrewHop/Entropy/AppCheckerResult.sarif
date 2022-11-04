@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.Label13.FocusedBorderThickness"
+                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.DataCardValue6.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.Label13.FocusedBorderThickness",
+                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.DataCardValue6.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "DetailScreen1",
-                "type": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.Label13"
+                "type": "DetailScreen1.DetailForm1.county_province_DataCard1.DataCardValue6"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.Label13.TabIndex"
+                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.DataCardValue6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.Label13.TabIndex",
+                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.DataCardValue6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "DetailScreen1",
-                "type": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.Label13"
+                "type": "DetailScreen1.DetailForm1.county_province_DataCard1.DataCardValue6"
               }
             }
           ],
@@ -627,66 +627,6 @@
                 "member": "TabIndex",
                 "module": "WelcomeScreen",
                 "type": "WelcomeScreen.Icon7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "DetailScreen1",
-                "type": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "DetailScreen1",
-                "type": "DetailScreen1.DetailForm1.county_province_DataCard1.Gallery5"
               }
             }
           ],
