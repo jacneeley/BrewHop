@@ -278,7 +278,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"website_url")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
+            Height: =
             Required: =false
             Width: =640
             X: =0
@@ -304,7 +304,7 @@
                 Color: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
-                OnSelect: =Launch(ThisItem.website_url)
+                OnSelect: =Launch(Parent.Default)
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
@@ -314,6 +314,26 @@
                 X: =30
                 Y: =DataCardKey6.Y + DataCardKey6.Height + 5
                 ZIndex: =2
+
+            Gallery5 As gallery.galleryHorizontal:
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Height: =104
+                Items: =Table1
+                TemplateSize: =630
+                Width: =610
+                ZIndex: =3
+
+            Label7 As label:
+                BorderColor: =RGBA(92, 74, 168, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =70
+                OnSelect: =Launch("ThisItem.website_url")
+                Size: =21
+                Text: =ThisItem.website_url
+                Width: =560
+                X: =80
+                ZIndex: =4
 
         latitude_DataCard1 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(92, 74, 168, 1)
