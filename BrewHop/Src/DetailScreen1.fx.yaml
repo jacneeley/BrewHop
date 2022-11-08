@@ -442,3 +442,13 @@
         Y: =1072
         ZIndex: =9
 
+    Icon5 As icon.LikeDislike:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.LikeDislike
+        X: =546
+        Y: =12
+        ZIndex: =10
+

@@ -15,10 +15,18 @@
             "tableName": "{8507B53C-D572-4019-996A-331E17117554}"
           }
         }
+      },
+      "me,b%2521kzI5ajRfQkuirbyx6eV8M4SR-zrAObNHu4YtIGdVjMjuj8_ldMVRQb0D_zZDSyiO,017JI6ALYG2ZZI2ZUG55GYNDJ7AQCN57IF": {
+        "dataSources": {
+          "Table1_2": {
+            "tableName": "{7540E9ED-3F49-4BFD-A713-3DA8C538472B}"
+          }
+        }
       }
     },
     "dataSources": [
-      "Table1_3"
+      "Table1_3",
+      "Table1_2"
     ],
     "dependencies": {},
     "dependents": [],
@@ -62,7 +70,7 @@
     "dependents": [],
     "id": "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2"
   },
-  "b551ab6f-ced5-440d-b696-2b05f2d0134f": {
+  "f1d901ab-8670-48c8-8475-460101c83cd9": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -77,7 +85,7 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "b551ab6f-ced5-440d-b696-2b05f2d0134f"
+    "id": "f1d901ab-8670-48c8-8475-460101c83cd9"
   },
   "fe193b4e-3a8d-474b-998e-33a196f695cf": {
     "connectionParameters": {
