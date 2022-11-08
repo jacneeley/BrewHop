@@ -644,19 +644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard4.Dropdown2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard4.Dropdown2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ReviewPage",
-                "type": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17"
+                "type": "ReviewPage.EditForm2.Rating_DataCard4.Dropdown2"
               }
             }
           ],
@@ -674,19 +674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14.AccessibleLabel"
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard1.DataCardValue13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14.AccessibleLabel",
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard1.DataCardValue13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ReviewPage",
-                "type": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14"
+                "type": "ReviewPage.EditForm2.Brewery_DataCard1.DataCardValue13"
               }
             }
           ],
@@ -698,6 +698,96 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Review_DataCard1.DataCardValue15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Review_DataCard1.DataCardValue15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ReviewPage",
+                "type": "ReviewPage.EditForm2.Review_DataCard1.DataCardValue15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -747,6 +837,36 @@
                 "member": "Item",
                 "module": "DetailScreen1",
                 "type": "DetailScreen1.DetailForm1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard4.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard4.Update",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "ReviewPage",
+                "type": "ReviewPage.EditForm2.Rating_DataCard4"
               }
             }
           ],

@@ -448,6 +448,7 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.LikeDislike
+        OnSelect: =Navigate(ReviewPage)
         X: =546
         Y: =12
         ZIndex: =10
