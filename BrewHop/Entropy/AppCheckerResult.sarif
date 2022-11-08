@@ -644,19 +644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14.AccessibleLabel"
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14.AccessibleLabel",
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ReviewPage",
-                "type": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14"
+                "type": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17"
               }
             }
           ],
@@ -674,19 +674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ReviewPage",
-                "type": "ReviewPage.EditForm2.Brewery_DataCard3.DataCardValue17"
+                "type": "ReviewPage.EditForm2.Rating_DataCard2.DataCardValue14"
               }
             }
           ],

@@ -52,7 +52,7 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =88
         Size: =27
-        Text: ="[Title]"
+        Text: ="Submit Review"
         Width: =Parent.Width - IconCancel2.Width - IconAccept2.Width
         Wrap: =false
         X: =IconCancel2.X + IconCancel2.Width
