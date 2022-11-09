@@ -304,7 +304,7 @@
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =41
-                OnSelect: =Launch("Parent.Default")
+                OnSelect: =Launch(Parent.Default)
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
