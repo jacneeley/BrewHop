@@ -2,6 +2,7 @@
 Powerapps Project to simulate building a real world, startup app, for the Agile Project Management course @ Texas State University.
 - Powerapps is a low-code/no-code platform. Powerapps was chosen by the instructor, so that agile could be taught in an environment w/out having to worry about experience in any given programming language.
 - Powerfx is the primary language used in powerapps.
+- Project was uploaded to github to practice basic concepts of version control.
 
 #Goal
 - Allow a user to find local breweries in their area.
