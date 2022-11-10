@@ -36,6 +36,23 @@
     "dependents": [],
     "id": "09289821-8093-4788-a097-99bd5ee2018c"
   },
+  "aaa0c777-93cf-4468-afeb-d6f3bee102bb": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Spatial Services",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1601/1.0.1601.3047/microsoftspatialservices/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_microsoftspatialservices"
+    },
+    "datasets": {},
+    "dataSources": [
+      "SpatialServices"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "aaa0c777-93cf-4468-afeb-d6f3bee102bb"
+  },
   "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2": {
     "connectionParameters": {
       "sku": "Enterprise"
@@ -73,23 +90,6 @@
     },
     "dependents": [],
     "id": "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2"
-  },
-  "d70fd2c5-7697-474d-9e05-03061ea3eecc": {
-    "connectionParameters": {
-      "sku": "Enterprise"
-    },
-    "connectionRef": {
-      "displayName": "Spatial Services",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1601/1.0.1601.3047/microsoftspatialservices/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_microsoftspatialservices"
-    },
-    "datasets": {},
-    "dataSources": [
-      "SpatialServices"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "d70fd2c5-7697-474d-9e05-03061ea3eecc"
   },
   "fe193b4e-3a8d-474b-998e-33a196f695cf": {
     "connectionParameters": {

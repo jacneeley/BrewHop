@@ -27,6 +27,7 @@
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(92, 74, 168, 1)
         Height: =88
         Icon: =Icon.Reload
         OnSelect: =Refresh([@Table1])
@@ -226,4 +227,74 @@
         X: =12
         Y: =12
         ZIndex: =10
+
+    Icon9 As icon.Bookmark:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(92, 74, 168, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Bookmark
+        X: =502
+        Y: =210
+        ZIndex: =11
+
+    Icon9_1 As icon.Bookmark:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(92, 74, 168, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Bookmark
+        X: =502
+        Y: =390
+        ZIndex: =12
+
+    Icon9_2 As icon.Bookmark:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(92, 74, 168, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Bookmark
+        X: =502
+        Y: =550
+        ZIndex: =13
+
+    Icon9_3 As icon.Bookmark:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(92, 74, 168, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Bookmark
+        X: =502
+        Y: =716
+        ZIndex: =14
+
+    Icon9_4 As icon.Bookmark:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(92, 74, 168, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Bookmark
+        X: =502
+        Y: =886
+        ZIndex: =15
+
+    Icon9_5 As icon.Bookmark:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(92, 74, 168, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Bookmark
+        X: =502
+        Y: =1040
+        ZIndex: =16
+
+    Icon11 As icon.BookmarkFilled:
+        BorderColor: =RGBA(92, 74, 168, 1)
+        Color: =RGBA(242, 239, 223, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.BookmarkFilled
+        X: =420
+        Y: =12
+        ZIndex: =17
 
