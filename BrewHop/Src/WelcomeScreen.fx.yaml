@@ -105,14 +105,3 @@ WelcomeScreen As screen:
         Y: =813
         ZIndex: =9
 
-    "ViewIn3D1 As 'View in 3D (preview)'.pcfdataset":
-        BackgroundFill: =RGBA(230, 235, 240, 1)
-        DisplayMode: =DisplayMode.Edit
-        Height: =400
-        Source: |-
-            ="https://www.bing.com/images/search?view=detailV2&ccid=C6alTP7g&id=A7E1B979D111863A9C11D238A4D01D25B70592F8&thid=OIP.C6alTP7ge-3iM4_X9j6C-wHaHa&mediaurl=https%3a%2f%2fwww.homewetbar.com%2fmedia%2fcatalog%2fproduct%2fcache%2f10f519365b01716ddb90abc57de5a837%2f5%2f2%2f5240-growler-pint-glass-set-sp17960.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.0ba6a54cfee07bede2338fd7f63e82fb%3frik%3d%252bJIFtyUd0KQ40g%26pid%3dImgRaw%26r%3d0&exph=1000&expw=1000&q=brewery+glasses&simid=608044576533406386&FORM=IRPRST&ck=22555F360A3AA453CE5B95943DAEA241&selectedIndex=9&ajaxhist=0&ajaxserp=0"
-        Width: =400
-        X: =40
-        Y: =40
-        ZIndex: =10
-
