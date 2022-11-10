@@ -46,7 +46,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"street")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =550
+            Height: =628
             Required: =false
             Width: =640
             WidthFit: =false
@@ -463,7 +463,7 @@
             =" https://3nationsbrewing.com "
         OnSelect: =Launch(Self.HtmlText)
         Width: =560
-        X: =50
-        Y: =813
+        X: =80
+        Y: =826
         ZIndex: =11
 

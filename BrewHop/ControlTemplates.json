@@ -592,5 +592,20 @@
     "Name": "typedDataCard",
     "OverridableProperties": {},
     "Version": "1.0.5"
+  },
+  "View in 3D (preview)": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/ViewIn3D",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "ViewIn3D",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "View in 3D (preview)",
+    "Version": "1.2.22"
   }
 }
