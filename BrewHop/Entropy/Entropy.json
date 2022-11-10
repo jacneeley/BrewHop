@@ -61,7 +61,6 @@
     "ExitScreen": 53,
     "FirstName_DataCard1": 65,
     "galleryTemplate1": 47,
-    "HtmlText3": 35,
     "Icon1": 42,
     "Icon10": 89,
     "Icon2": 57,
@@ -71,7 +70,7 @@
     "Icon6": 34,
     "Icon7": 93,
     "Icon8": 91,
-    "IconAccept1": 63,
+    "IconAccept1": 62,
     "IconAccept2": 97,
     "IconBackarrow1": 5,
     "IconCancel1": 61,
@@ -84,7 +83,7 @@
     "LastName_DataCard1": 70,
     "latitude_DataCard1": 31,
     "LblAppName1": 39,
-    "LblAppName2": 62,
+    "LblAppName2": 63,
     "LblAppName3": 98,
     "longitude_DataCard1": 28,
     "Map3": 12,
@@ -118,12 +117,12 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/10/2022 08:02:54",
+  "HeaderLastSavedDateTimeUTC": "11/10/2022 08:51:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "09289821-8093-4788-a097-99bd5ee2018c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/aaae8d47b84d4c89b9059dafc0eadf16\"",
-    "0e856be7-c34d-4bff-8153-4b7cdbe5f938": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/8b962af70c2e483da91f570279cb6175\"",
     "ab66f7c5-0b22-4fa7-aff4-2adb2b65b2c2": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/8fb8163a60594127aa2021c401945f2e\"",
+    "d70fd2c5-7697-474d-9e05-03061ea3eecc": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/8b962af70c2e483da91f570279cb6175\"",
     "fe193b4e-3a8d-474b-998e-33a196f695cf": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/bb5418aec96748fc91b52c34a8f6b928\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -132,8 +131,8 @@
     "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "0002.jpg"
   },
   "LocalResourceRootPaths": {
-    "istockphoto-150672528-612x612": "https://docserverpwaprodwus.blob.core.windows.net/f6d95f19-deee-4cdd-9e55-0bb96f2268a9-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=b1G0btJ8xzT3E9FrdDEFMzLR2J6O%2B%2BbgCsSHTFsRYgs%3D&spr=https&se=2022-11-11T08%3A14%3A02Z&sp=r",
-    "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodwus.blob.core.windows.net/f6d95f19-deee-4cdd-9e55-0bb96f2268a9-1/resource/Assets0Images00002.jpg?sv=2017-04-17&sr=b&sig=FEYKwew6PJZAYqZ3xhmZv90BNGKJ9XbVaJfxDXS2tBg%3D&spr=https&se=2022-11-11T08%3A14%3A02Z&sp=r"
+    "istockphoto-150672528-612x612": "https://docserverpwaprodeus.blob.core.windows.net/41196722-1ee9-4d2b-9db9-841396b24fdd-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=1pgIB8fwz4b6eL4%2FtwqKm6algIer6LakYIofRSdlDSk%3D&spr=https&se=2022-11-11T09%3A06%3A12Z&sp=r",
+    "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodeus.blob.core.windows.net/41196722-1ee9-4d2b-9db9-841396b24fdd-1/resource/Assets0Images00002.jpg?sv=2017-04-17&sr=b&sig=SjstnVKhdfkO6TNFyCV5B0E7nNgnOlVEXi4eB7caOb0%3D&spr=https&se=2022-11-11T09%3A06%3A12Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -154,16 +153,15 @@
   },
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 7,
-    "dropdown": 9,
-    "form": 8,
+    "button": 6,
+    "dropdown": 8,
+    "form": 7,
     "formViewer": 3,
-    "gallery": 6,
-    "htmlViewer": 4,
+    "gallery": 5,
     "icon": 1,
     "label": 2,
     "rectangle": 0,
-    "text": 5
+    "text": 4
   },
   "PublishOrderIndices": {
     "App": 0,
@@ -225,7 +223,6 @@
     "ExitScreen": 49,
     "FirstName_DataCard1": 60,
     "galleryTemplate1": 16,
-    "HtmlText3": 53,
     "Icon1": 11,
     "Icon10": 2,
     "Icon2": 84,
@@ -288,7 +285,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.9268064,
+    "AnalysisLoadTime": 1.0061684,
     "ControlCount": {
       "button": 6,
       "dropdown": 1,
@@ -305,7 +302,7 @@
       "text": 7,
       "typedDataCard": 15
     },
-    "DeserializationLoadTime": 2.4120303,
+    "DeserializationLoadTime": 2.8201569,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
