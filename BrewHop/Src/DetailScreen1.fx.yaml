@@ -49,6 +49,7 @@
             Height: =550
             Required: =false
             Width: =640
+            WidthFit: =false
             X: =0
             Y: =0
             ZIndex: =1
@@ -86,10 +87,13 @@
                 AddressDataSource: =ThisItem.street
                 BorderColor: =RGBA(0, 18, 107, 1)
                 CurrentLocation: =false
+                DefaultLocation: =false
                 DisplayMode: =DisplayMode.Edit
                 Height: =532
                 PinColor: =RGBA(29, 114, 169, 1)
-                Width: =498
+                RouteMaintainOrder: =false
+                UseRouting: =false
+                Width: =624
                 X: =0
                 Y: =150
                 ZIndex: =3
@@ -428,7 +432,7 @@
         OnSelect: =Navigate(BrowseScreen1)
         Width: =124
         X: =486
-        Y: =120
+        Y: =646
         ZIndex: =8
 
     Icon4 As icon.ComputerDesktop:
@@ -438,7 +442,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.ComputerDesktop
         OnSelect: =Launch(DataCardValue6.Text)
-        X: =504
+        X: =546
         Y: =1072
         ZIndex: =9
 
@@ -452,4 +456,14 @@
         X: =546
         Y: =12
         ZIndex: =10
+
+    HtmlText3 As htmlViewer:
+        Height: =140
+        HtmlText: |-
+            =" https://3nationsbrewing.com "
+        OnSelect: =Launch(Self.HtmlText)
+        Width: =560
+        X: =50
+        Y: =813
+        ZIndex: =11
 

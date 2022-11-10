@@ -126,7 +126,7 @@
                     (SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
-        ShowScrollbar: =false
+        ShowNavigation: =true
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Width: =Parent.Width
