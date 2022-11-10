@@ -36,7 +36,7 @@
         Item: =BrowseGallery1.Selected
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
-        ZIndex: =6
+        ZIndex: =3
 
         street_DataCard1 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(92, 74, 168, 1)
@@ -94,7 +94,7 @@
                 RouteMaintainOrder: =false
                 UseRouting: =false
                 Width: =624
-                X: =0
+                X: =14
                 Y: =150
                 ZIndex: =3
 
@@ -420,7 +420,7 @@
         Width: =560
         X: =63
         Y: =9
-        ZIndex: =7
+        ZIndex: =4
 
     Icon6 As icon.Globe:
         BorderColor: =RGBA(92, 74, 168, 1)
@@ -433,7 +433,7 @@
         Width: =124
         X: =486
         Y: =646
-        ZIndex: =8
+        ZIndex: =5
 
     Icon4 As icon.ComputerDesktop:
         BorderColor: =RGBA(92, 74, 168, 1)
@@ -444,7 +444,7 @@
         OnSelect: =Launch(DataCardValue6.Text)
         X: =546
         Y: =1072
-        ZIndex: =9
+        ZIndex: =6
 
     Icon5 As icon.LikeDislike:
         BorderColor: =RGBA(92, 74, 168, 1)
@@ -455,15 +455,15 @@
         OnSelect: =Navigate(ReviewPage)
         X: =546
         Y: =12
-        ZIndex: =10
+        ZIndex: =7
 
     HtmlText3 As htmlViewer:
         Height: =76
         HtmlText: |-
-            =" https://3nationsbrewing.com "
+            ="https://3nationsbrewing.com "
         OnSelect: =Launch(Self.HtmlText)
         Width: =560
         X: =80
-        Y: =1010
-        ZIndex: =11
+        Y: =810
+        ZIndex: =8
 
