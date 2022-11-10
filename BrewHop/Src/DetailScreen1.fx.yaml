@@ -458,12 +458,12 @@
         ZIndex: =10
 
     HtmlText3 As htmlViewer:
-        Height: =140
+        Height: =76
         HtmlText: |-
             =" https://3nationsbrewing.com "
         OnSelect: =Launch(Self.HtmlText)
         Width: =560
         X: =80
-        Y: =826
+        Y: =1010
         ZIndex: =11
 
