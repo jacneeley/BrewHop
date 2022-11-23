@@ -1,4 +1,18 @@
 {
+  "addMedia": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/addMedia",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "addMedia",
+    "OverridableProperties": {},
+    "Version": "2.2.1"
+  },
   "appinfo": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -97,6 +111,20 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "group": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/group",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "group",
+    "OverridableProperties": {},
+    "Version": "1"
+  },
   "groupContainer": {
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
@@ -121,6 +149,20 @@
     "OverridableProperties": {},
     "Version": "2.5.0"
   },
+  "image": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/image",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "image",
+    "OverridableProperties": {},
+    "Version": "2.2.2"
+  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -134,394 +176,6 @@
     "Name": "label",
     "OverridableProperties": {},
     "Version": "2.5.1"
-  },
-  "Map (preview)": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/Map",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "Map",
-    "OverridableProperties": {
-      "Bounds": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Record",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "East",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "North",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "South",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "West",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      },
-      "CenterLocation": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Record",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Latitude",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Longitude",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      },
-      "ClickedLocation": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Record",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Latitude",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Longitude",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      },
-      "DeletedShape": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Record",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Area",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Color",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "GeoJSON",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Id",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Label",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Perimeter",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      },
-      "GeocodedItems": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Table",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Address",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Label",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Latitude",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Longitude",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      },
-      "RouteDirection": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Record",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "LengthInMeters",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Table",
-              "Name": "OrderedWaypoints",
-              "Type": [
-                {
-                  "EnumString": "",
-                  "Kind": "String",
-                  "Name": "Address",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "Index",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "String",
-                  "Name": "Label",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "Latitude",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "Longitude",
-                  "Type": []
-                }
-              ]
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "RouteGeoJSON",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Table",
-              "Name": "RouteLegs",
-              "Type": [
-                {
-                  "EnumString": "",
-                  "Kind": "String",
-                  "Name": "EndAddress",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "String",
-                  "Name": "EndLabel",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "EndLatitude",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "EndLongitude",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "Index",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "LengthInMeters",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "String",
-                  "Name": "StartAddress",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "String",
-                  "Name": "StartLabel",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "StartLatitude",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "StartLongitude",
-                  "Type": []
-                },
-                {
-                  "EnumString": "",
-                  "Kind": "Number",
-                  "Name": "TravelTimeInSeconds",
-                  "Type": []
-                }
-              ]
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "TravelTimeInSeconds",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      },
-      "SelectedShape": {
-        "Type": {
-          "EnumString": "",
-          "Kind": "Record",
-          "Name": "Root",
-          "Type": [
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Area",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Color",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "GeoJSON",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Id",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "String",
-              "Name": "Label",
-              "Type": []
-            },
-            {
-              "EnumString": "",
-              "Kind": "Number",
-              "Name": "Perimeter",
-              "Type": []
-            }
-          ]
-        },
-        "Version": "1.326"
-      }
-    },
-    "PCFDynamicSchemaForIRRetrieval": {
-      "Bounds": {
-        "DynamicSchema": "{\"type\":\"object\",\"properties\":{\"North\":{\"type\":\"number\"},\"South\":{\"type\":\"number\"},\"East\":{\"type\":\"number\"},\"West\":{\"type\":\"number\"}}}",
-        "PCFSkipValidation": false
-      },
-      "CenterLocation": {
-        "DynamicSchema": "{\"type\":\"object\",\"properties\":{\"Latitude\":{\"type\":\"number\"},\"Longitude\":{\"type\":\"number\"}}}",
-        "PCFSkipValidation": false
-      },
-      "ClickedLocation": {
-        "DynamicSchema": "{\"type\":\"object\",\"properties\":{\"Latitude\":{\"type\":\"number\"},\"Longitude\":{\"type\":\"number\"}}}",
-        "PCFSkipValidation": false
-      },
-      "DeletedShape": {
-        "DynamicSchema": "{\"type\":\"object\",\"properties\":{\"GeoJSON\":{\"type\":\"string\"},\"Label\":{\"type\":\"string\"},\"Color\":{\"type\":\"string\"},\"Area\":{\"type\":\"number\"},\"Perimeter\":{\"type\":\"number\"},\"Id\":{\"type\":\"string\"}}}",
-        "PCFSkipValidation": false
-      },
-      "GeocodedItems": {
-        "DynamicSchema": "{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Label\":{\"type\":\"string\"},\"Latitude\":{\"type\":\"number\"},\"Longitude\":{\"type\":\"number\"},\"Address\":{\"type\":\"string\"}}}}",
-        "PCFSkipValidation": false
-      },
-      "RouteDirection": {
-        "DynamicSchema": "{\"type\":\"object\",\"properties\":{\"LengthInMeters\":{\"type\":\"number\"},\"TravelTimeInSeconds\":{\"type\":\"number\"},\"RouteGeoJSON\":{\"type\":\"string\"},\"RouteLegs\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"LengthInMeters\":{\"type\":\"number\"},\"TravelTimeInSeconds\":{\"type\":\"number\"},\"StartLatitude\":{\"type\":\"number\"},\"StartLongitude\":{\"type\":\"number\"},\"StartLabel\":{\"type\":\"string\"},\"StartAddress\":{\"type\":\"string\"},\"EndLatitude\":{\"type\":\"number\"},\"EndLongitude\":{\"type\":\"number\"},\"EndLabel\":{\"type\":\"string\"},\"EndAddress\":{\"type\":\"string\"},\"Index\":{\"type\":\"number\"}}}},\"OrderedWaypoints\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Latitude\":{\"type\":\"number\"},\"Longitude\":{\"type\":\"number\"},\"Label\":{\"type\":\"string\"},\"Address\":{\"type\":\"string\"},\"Index\":{\"type\":\"number\"}}}}}}",
-        "PCFSkipValidation": false
-      },
-      "SelectedShape": {
-        "DynamicSchema": "{\"type\":\"object\",\"properties\":{\"GeoJSON\":{\"type\":\"string\"},\"Label\":{\"type\":\"string\"},\"Color\":{\"type\":\"string\"},\"Area\":{\"type\":\"number\"},\"Perimeter\":{\"type\":\"number\"},\"Id\":{\"type\":\"string\"}}}",
-        "PCFSkipValidation": false
-      }
-    },
-    "TemplateDisplayName": "Map (preview)",
-    "Version": "1.8.26"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
