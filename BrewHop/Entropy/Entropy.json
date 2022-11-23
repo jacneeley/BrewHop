@@ -2,8 +2,6 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "AddMediaButton2": 125,
-    "AddMediaWithImage2": 126,
     "App": 1,
     "Body1": 51,
     "Brewery_DataCard1": 106,
@@ -86,6 +84,7 @@
     "IconCancel2": 102,
     "IconRefresh1": 40,
     "IconSortUpDown1": 41,
+    "Image1": 135,
     "Label1": 93,
     "Label2": 6,
     "Label3": 60,
@@ -120,13 +119,12 @@
     "Subtitle1": 49,
     "TextSearchBox1": 43,
     "Title1": 48,
-    "UploadedImage2": 124,
     "Username_DataCard1": 81,
     "WelcomeScreen": 92
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/23/2022 20:54:08",
+  "HeaderLastSavedDateTimeUTC": "11/23/2022 20:59:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "09289821-8093-4788-a097-99bd5ee2018c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/b411f76f830e45738673734ebc2fe365\"",
@@ -136,10 +134,12 @@
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "istockphoto-150672528-612x612": "0001.jpg",
+    "map": "f9bcd844-3194-47aa-913e-683839b385ec.png",
     "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "0002.jpg"
   },
   "LocalResourceRootPaths": {
     "istockphoto-150672528-612x612": "https://docserverpwaprodwus.blob.core.windows.net/2c40af18-2b1d-48d6-8a0e-8b5f818596cb-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=zUQ%2BFrVYK3rJ%2ByP1cXjxErYDpRHfEomr6%2F5RVEh2XvE%3D&spr=https&se=2022-11-24T21%3A06%3A24Z&sp=r",
+    "map": "https://docserverpwaprodwus.blob.core.windows.net/2c40af18-2b1d-48d6-8a0e-8b5f818596cb-1/resource/a76e90f8-7f95-4cc6-abf8-95bca819912a.png?sv=2017-04-17&sr=b&sig=jkuB5owTkXVavClRD13uV0MrRKtYQfz8Vg93%2Bu%2FZ0Dg%3D&spr=https&se=2022-11-24T21%3A13%3A36Z&sp=r",
     "two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": "https://docserverpwaprodwus.blob.core.windows.net/2c40af18-2b1d-48d6-8a0e-8b5f818596cb-1/resource/Assets0Images00002.jpg?sv=2017-04-17&sr=b&sig=EQeHKYYr2FjPXCCEmBiMLIQgr2C8D62WEvys3A3%2F1ok%3D&spr=https&se=2022-11-24T21%3A06%3A24Z&sp=r"
   },
   "OrderComponentMetadata": {},
@@ -154,30 +154,22 @@
     "Table1_3": 4,
     "Table2": 5
   },
-  "OrderGroupControls": {
-    "AddMediaWithImage2": {
-      "AddMediaButton2": 1,
-      "UploadedImage2": 0
-    }
-  },
+  "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "addMedia": 1,
-    "button": 8,
-    "dropdown": 10,
-    "form": 9,
-    "formViewer": 5,
-    "gallery": 7,
-    "icon": 3,
-    "image": 0,
-    "label": 4,
-    "rectangle": 2,
-    "text": 6
+    "button": 7,
+    "dropdown": 9,
+    "form": 8,
+    "formViewer": 3,
+    "gallery": 6,
+    "icon": 1,
+    "image": 4,
+    "label": 2,
+    "rectangle": 0,
+    "text": 5
   },
   "PublishOrderIndices": {
-    "AddMediaButton2": 0,
-    "AddMediaWithImage2": 0,
     "App": 0,
     "Body1": 21,
     "Brewery_DataCard1": 97,
@@ -260,6 +252,7 @@
     "IconCancel2": 93,
     "IconRefresh1": 9,
     "IconSortUpDown1": 10,
+    "Image1": 37,
     "Label1": 0,
     "Label2": 31,
     "Label3": 87,
@@ -294,12 +287,12 @@
     "Subtitle1": 19,
     "TextSearchBox1": 13,
     "Title1": 18,
-    "UploadedImage2": 0,
     "Username_DataCard1": 76,
     "WelcomeScreen": 79
   },
   "ResourcesJsonIndices": {
     "Image-istockphoto-150672528-612x612": 1,
+    "Image-map": 3,
     "Image-SampleImage": 0,
     "Image-two-friends-toasting-clinking-glasses-light-beer-pub-beautiful-background-blurred-view-flag-switzerla-switzerland-119727650": 2
   },
@@ -308,13 +301,16 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 1.0668215,
     "ControlCount": {
+      "addMedia": 2,
       "button": 6,
       "dropdown": 1,
       "form": 2,
       "formViewer": 1,
       "gallery": 1,
       "galleryTemplate": 1,
+      "group": 1,
       "icon": 25,
+      "image": 2,
       "label": 46,
       "Map": 1,
       "rectangle": 6,

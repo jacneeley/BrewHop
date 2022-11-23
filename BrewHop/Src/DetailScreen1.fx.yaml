@@ -83,6 +83,17 @@
                 Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
 
+            Image1 As image:
+                BorderColor: =RGBA(92, 74, 168, 1)
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Height: =444
+                Image: =map
+                Width: =520
+                X: =60
+                Y: =126
+                ZIndex: =6
+
         state_DataCard As typedDataCard.textualViewCard:
             BorderColor: =RGBA(92, 74, 168, 1)
             BorderStyle: =BorderStyle.Solid
@@ -417,7 +428,7 @@
         OnSelect: =Navigate(BrowseScreen1)
         Width: =124
         X: =486
-        Y: =694
+        Y: =700
         ZIndex: =5
 
     Icon4 As icon.ComputerDesktop:
@@ -441,34 +452,4 @@
         X: =546
         Y: =12
         ZIndex: =7
-
-    AddMediaWithImage2 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =8
-
-        UploadedImage2 As image:
-            BorderColor: =RGBA(92, 74, 168, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =AddMediaButton2.Height
-            Image: =If(IsBlank(AddMediaButton2.Media), SampleImage, AddMediaButton2.Media)
-            ImagePosition: =ImagePosition.Fill
-            Width: =AddMediaButton2.Width
-            X: =AddMediaButton2.X
-            Y: =AddMediaButton2.Y
-            ZIndex: =9
-
-        AddMediaButton2 As addMedia:
-            BorderColor: =RGBA(92, 74, 168, 1)
-            Color: =RGBA(0, 0, 0, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =432
-            Size: =25
-            Width: =575
-            X: =32
-            Y: =234
-            ZIndex: =10
 
