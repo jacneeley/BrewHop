@@ -77,8 +77,8 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Table2], DataSourceInfo.MaxLength, "Brewery")
-            Required: =false
-            Update: =DataCardValue13.Text
+            Required: =true
+            Update: =DataCardValue11.Text
             Width: =640
             X: =0
             Y: =0
@@ -109,6 +109,7 @@
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
                 Height: =70
+                HintText: ="brew name"
                 HoverBorderColor: =RGBA(92, 74, 168, 1)
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(185, 173, 246, 1)
@@ -167,7 +168,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =145
             MaxLength: =DataSourceInfo([@Table2], DataSourceInfo.MaxLength, "Rating")
-            Required: =false
+            Required: =true
             Update: =DataCardValue12.Text
             Width: =640
             X: =0
@@ -251,8 +252,8 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Table2], DataSourceInfo.MaxLength, "Review")
-            Required: =false
-            Update: =DataCardValue15.Text
+            Required: =true
+            Update: =DataCardValue13.Text
             Width: =640
             X: =0
             Y: =2
