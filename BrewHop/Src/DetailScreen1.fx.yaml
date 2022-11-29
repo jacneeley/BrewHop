@@ -459,14 +459,14 @@
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(30, 14, 91, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =73
+        Height: =56
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(30, 14, 91, 1), -20%)
         OnSelect: =Navigate( ExitScreen )
         Size: =24
         Text: ="Exit"
-        Width: =150
-        X: =460
+        Width: =93
+        X: =516
         Y: =106
         ZIndex: =8
 
